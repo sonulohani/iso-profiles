@@ -10,7 +10,7 @@ dmidecode
 gthumb
 evince
 >extra manjaro-log-helper
->basic epiphany
+#>basic epiphany
 >extra firefox
 >extra firefox-gnome-theme-maia
 >extra rygel
@@ -26,7 +26,7 @@ gnome-calculator
 gnome-control-center
 gnome-desktop
 gnome-disk-utility
->extra gnome-font-viewer
+>basic gnome-font-viewer
 gnome-keyring
 fprintd #need for finger id reader
 >extra gnome-online-accounts
@@ -109,7 +109,7 @@ networkmanager-pptp
 networkmanager-vpnc
 nss-mdns
 numlockx
->extra onlyoffice-desktopeditors
+#>extra onlyoffice-desktopeditors
 openresolv
 #gnome-software-snap
 #>extra flatpak
@@ -168,8 +168,8 @@ xorg-xinit
 >extra libappindicator-gtk3
 
 #extra depends for file-roller
->extra p7zip
->extra unrar
+>basic p7zip
+>basic unrar
 >extra unace
 >extra lrzip
 >extra gtk3-print-backends
@@ -197,3 +197,8 @@ xorg-xinit
 >basic disable-tracker
 grub-theme-manjaro
 manjaro-gnome-tour
+neofetch
+htop
+the_silver_searcher
+binutils
+
